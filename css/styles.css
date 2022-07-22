@@ -1,0 +1,169 @@
+body{
+  font-family: "Montserrat";
+  /* text-align: center; */
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+  position: static;
+}
+
+/* Headings */
+.bigger-heading{
+  font-family:"Montserrat-Black";
+  font-size: 3.4rem;
+}
+.section-heading{
+  font-family:cursive;
+  font-size: 2rem;
+  line-height: 2;
+}
+#sara{
+  margin-top: 25px;
+}
+#sara2{
+  margin-top: 25px;
+}
+.navbar-brand:link{
+  color: white;
+}
+.navbar-brand:hover{
+  color: blue;
+}
+.navbar-collapse :active{
+
+  display: block !important;
+
+}
+
+p{
+  color: grey;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+/* Navigation Bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.container{
+  padding: 3% 10%;
+}
+.press-logo{
+  width: 15%;
+  margin: 10px 30px;
+
+}
+#press{
+  background-color: #ef8172;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+/* Features */
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.featured-box{
+  text-align: center;
+  padding: 5%;
+}
+.featured-title{
+  font-family:sans-serif;
+  font-weight: bold;
+}
+
+/* Testimonial Sections */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.testimonial-image{
+  margin-top: 20px;
+  border-radius: 50%;
+  width: 25%;
+}
+.testimonial-text{
+  font-family:cursive;
+  font-size: 2rem;
+  line-height: 2;
+}
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  margin-left: 40px;
+  position: relative;
+  margin-top: 100px;
+}
+.carousel-item{
+  padding: 5% 15%;
+}
+/* Pricing */
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.price-text{
+  font-family:cursive;
+  font-size: 2rem;
+  line-height: 2;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+@media(max-width: 991px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* Call to Action */
+#cta{
+  padding-top: 7%;
+  padding-bottom: 10%;
+  font-family:sans-serif;
+  text-align: center;
+  background-color: #ff4c68;
+  color:white;
+}
+.s{
+  padding-bottom: 10px;
+  margin-left: 10%
+  margin-right:10%;
+  font-size: 3.5rem;
+  line-height: 2;
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.sara1{
+  margin-right: 10px;
+}
+.sara2{
+  margin-left: 10px;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+  font-family: serif;
+  color: Black;
+}
+.footer-icons{
+  margin:20px 10px;
+}
